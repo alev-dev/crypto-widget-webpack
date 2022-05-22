@@ -1,0 +1,75 @@
+.crypto-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.crypto-details-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.crypto-details-back {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(226, 182, 60);
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+.crypto-details-back:hover {
+    background-color: rgb(146, 118, 41);
+
+
+}
+
+.crypto-details-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.crypto-details-body-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.crypto-details-body-section {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.crypto-details-body-section .name {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+
+}

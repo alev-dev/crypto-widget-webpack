@@ -1,0 +1,3 @@
+#Git Igonre file
+/node_modules
+ /dist

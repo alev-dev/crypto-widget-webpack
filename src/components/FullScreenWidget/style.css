@@ -1,0 +1,32 @@
+.crypto-widget__header__closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(214, 171, 54);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    color: #fff;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.crypto-widget__header__closeBtn:hover {
+    background-color: rgb(175, 139, 39);
+    transform: scale(1.1);
+}
+
+
+.crypto-widget__header-title__fullScreen {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
