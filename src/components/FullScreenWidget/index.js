@@ -4,7 +4,6 @@ import SectionsCryptos from './SectionsCryptos';
 import './style.css';
 
 function FullScreenWidget({ handleCloseClick, coins, coinSelected, setcoinSelected }) {
-    console.log(coinSelected);
     return (
         <>
             <div className="crypto-widget__header__closeBtn" onClick={handleCloseClick}>
