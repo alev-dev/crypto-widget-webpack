@@ -1,11 +1,12 @@
-import reactDom from 'react-dom';
 import React from 'react';
+import { createRoot } from 'react-dom/client';
 import MainLayout from './components/MainLayout';
-function app(window) {
-    console.log('Hello World');
-    reactDom.render(<MainLayout />, document.getElementById('crypto-widget'));
+function app() {
+    const rootElement = document.getElementById('crypto-widget');
+    const root = createRoot(rootElement);
+    root.render(<MainLayout />);
 }
 
-app(window);
+app();
 
 export default app;
