@@ -5,7 +5,11 @@ module.exports = () => {
     return [
         {
             entry: './src/main.js',
-
+            performance: {
+                maxAssetSize: 300000,
+                maxEntrypointSize: 300000,
+                hints: 'error',
+            },
             mode: 'production',
             resolve: {
                 modules: [path.resolve(__dirname, 'src'), 'node_modules'],
