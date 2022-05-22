@@ -21,12 +21,14 @@
     "file-loader": "^6.2.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "style-loader": "^3.3.1"
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.9.0",
+    "copy-webpack-plugin": "^11.0.0"
+
+
   },
   "devDependencies": {
     "webpack": "^5.72.1",
-    "copy-webpack-plugin": "^11.0.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.0"
+    "webpack-cli": "^4.9.2"
   }
 }
