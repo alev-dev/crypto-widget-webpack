@@ -23,12 +23,12 @@
     "react-dom": "^18.1.0",
     "style-loader": "^3.3.1",
     "webpack-dev-server": "^4.9.0",
-    "copy-webpack-plugin": "^11.0.0"
-
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
 
   },
   "devDependencies": {
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+  
   }
 }
